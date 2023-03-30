@@ -1,4 +1,4 @@
-import {View, Text, StyleSheet, Touchable} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 import React from 'react';
 import Texts from '../Components/Text';
 import TextInputs from '../Components/TextInputs';
@@ -13,7 +13,10 @@ export default function Home({navigation}) {
       <TextInputs children={''} placeholder={'Table Name'} />
       <TextInputs children={''} placeholder={'Unique Column'} />
       <TextInputs children={''} placeholder={'Column Name'} />
-      <Touchables children={'Manual Update'} onPress={() => navigation.navigate('screen')} />
+      <Touchables
+        children={'Manual Update'}
+        onPress={() => navigation.navigate('screen')}
+      />
     </View>
   );
 }

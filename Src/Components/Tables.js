@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderBottomWidth: 0.5,
     borderRightWidth: 0.5,
-    borderColor:"#9E9E9E",
+    borderColor: '#9E9E9E',
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#FFFF00',
@@ -141,7 +141,7 @@ const styles = StyleSheet.create({
     height: 45,
     width: 200,
     borderWidth: 0.5,
-    borderColor:"#9E9E9E"
+    borderColor: '#9E9E9E',
   },
   inputItem: {
     padding: 3,

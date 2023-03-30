@@ -2,9 +2,9 @@ import {StyleSheet, TouchableOpacity} from 'react-native';
 import React from 'react';
 import Texts from './Text';
 
-export default function Touchables({children,onPress,styleprop}) {
+export default function Touchables({children, onPress, styleprop}) {
   return (
-    <TouchableOpacity style={[styles.click,styleprop]} onPress={onPress}>
+    <TouchableOpacity style={[styles.click, styleprop]} onPress={onPress}>
       <Texts style={styles.textButton} children={children} />
     </TouchableOpacity>
   );

@@ -7,7 +7,7 @@ export default function TextInputs({children, placeholder, styleprop}) {
       value={children}
       placeholderTextColor={'#B8B8B8'}
       placeholder={placeholder}
-      style={[styles.input,styleprop]}
+      style={[styles.input, styleprop]}
     />
   );
 }
